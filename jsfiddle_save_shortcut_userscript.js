@@ -1,5 +1,6 @@
 /**
  * Created by p.querner on 22.01.2015.
+ * Edit by jemiloii on 22.01.2015
  */
 // ==UserScript==
 // @name       My Fancy New Userscript
@@ -15,10 +16,9 @@
 // ==/UserScript==
 
 Mousetrap.bindGlobal(['command+s', 'ctrl+s'], function() {
-    if(document.getElementById('update') != undefined) { //Update found
+    if(document.getElementById('update') !== null) { //Update found
         document.getElementById('update').click(); //Emulate click
-    }
-    if(document.getElementById('savenew') != undefined) { //Savenew found
+    }else{
         document.getElementById('savenew').click(); //Emulate click
     }
     // return false to prevent default browser behavior
