@@ -10,7 +10,7 @@
 // @match      http://*.jsfiddle.net/*/*
 // @match      http://*.jsfiddle.net
 // @copyright  2015, Me
-// @updateURL https://github.com/pquerner/jsfiddle_save_shortcut/jsfiddle_save_shortcut_userscript.js
+// @updateURL https://raw.githubusercontent.com/pquerner/jsfiddle_save_shortcut/master/jsfiddle_save_shortcut_userscript.js
 // @require https://cdnjs.cloudflare.com/ajax/libs/mousetrap/1.4.6/mousetrap.min.js
 // @require https://cdnjs.cloudflare.com/ajax/libs/mousetrap/1.4.6/mousetrap-global-bind.min.js
 // ==/UserScript==
