@@ -3,10 +3,10 @@
  * Edit by jemiloii on 22.01.2015
  */
 // ==UserScript==
-// @name       My Fancy New Userscript
+// @name       jsfiddle Save/Update Shortcut Fix
 // @namespace  https://github.com/pquerner
 // @version    0.1
-// @description  enter something useful
+// @description  Fixes jsfiddle error on Chrome when trying to save the current fiddle (either update or new fiddles)
 // @match      http://*.jsfiddle.net/*/*
 // @match      http://*.jsfiddle.net
 // @copyright  2015, Me
